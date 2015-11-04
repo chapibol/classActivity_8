@@ -1,4 +1,12 @@
+/**
+ * Group Members: Luis Velascco, Larry Hong, Peter Alvarado Nunez.
+ * Group Leader: Luis Velasco
+ * Date: 11-05-2015
+ * Course: IT 306 - 001
+ * Class Activity 8
+ */
 package classActivity_8;
+
 import java.util.*;
 
 public class UnsortedPriorityQueue  {
