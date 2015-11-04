@@ -34,7 +34,4 @@ public class Flight {
 
         return "F#"+flightNumber + ", Connection Period: " + connectionPeriod + ", Connective?: " + connectingFlight;
     }
-
-
-
 }
