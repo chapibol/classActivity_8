@@ -1,4 +1,12 @@
+/**
+ * Group Members: Luis Velascco, Larry Hong, Peter Alvarado Nunez.
+ * Group Leader: Luis Velasco
+ * Date: 11-05-2015
+ * Course: IT 306 - 001
+ * Class Activity 8
+ */
 package classActivity_8;
+
 public class Flight {
 
     private String flightNumber;
@@ -31,7 +39,7 @@ public class Flight {
         this.connectingFlight = connectingFlight;
     }
     public String toString (){
-
-        return "F#"+flightNumber + ", Connection Period: " + connectionPeriod + ", Connective?: " + connectingFlight;
+    	
+        return "F#"+flightNumber + ", Connection Period: " + connectionPeriod + ", Connective?: " + (connectingFlight ? "Yes" : "No");
     }
 }
