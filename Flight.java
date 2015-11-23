@@ -40,6 +40,6 @@ public class Flight {
     }
     public String toString (){
     	
-        return "F#"+flightNumber + ", Connection Period: " + connectionPeriod + ", Connective?: " + (connectingFlight ? "Yes" : "No");
+        return "F#"+flightNumber + ", Connection Period: " + connectionPeriod + ", is Connective?: " + (connectingFlight ? "Yes" : "No");
     }
 }

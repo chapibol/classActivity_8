@@ -14,6 +14,7 @@ public class FlightImplementation {
 	public static void main(String[] args) {
 		UnsortedPriorityQueue flightList = new UnsortedPriorityQueue();
 		//Variable to store the response of the user to add more flights
+		
 		int userChoice = 0;
 		
 		do{
